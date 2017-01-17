@@ -24,7 +24,7 @@ public class main {
         String name;
         Game games = new Game();
 
-        System.out.print("Write your name: ");
+        System.out.print("Write thine name: ");
         name = sc.next();
         games.player.setName(name);
         while (running != false) { // ! reverses the logical statement, so here running = true;
